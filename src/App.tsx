@@ -1,19 +1,19 @@
 import './styles/theme.css';
 import './styles/global.css';
+
+import { Container } from './components/ContainerComponent';
 import { Heading } from './components/Heading';
 
 export function App() {
   return (
-    //sempre tem que ter um container pai encapsulando
+    //(React Fragment)sempre tem que ter um container pai encapsulando
     <>
-      <Heading attr={2} attr2='string'>
-        Meus Ovos
-      </Heading>
-
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+      <Container>
+        <Heading>HEADER</Heading>
+      </Container>
+      <Container>
+        <Heading>MENU</Heading>
+      </Container>
     </>
   );
 }
