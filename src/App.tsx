@@ -2,17 +2,18 @@ import './styles/theme.css';
 import './styles/global.css';
 
 import { Container } from './components/ContainerComponent';
-import { Heading } from './components/Heading';
+import { Logo } from './components/Logo';
+import { Menu } from './components/Menu';
 
 export function App() {
   return (
     //(React Fragment)sempre tem que ter um container pai encapsulando
     <>
       <Container>
-        <Heading>HEADER</Heading>
+        <Logo />
       </Container>
       <Container>
-        <Heading>MENU</Heading>
+        <Menu />
       </Container>
     </>
   );

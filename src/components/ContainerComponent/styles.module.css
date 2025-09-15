@@ -1,12 +1,9 @@
 .container {
   max-width: 98rem;
-  background-color: red;
-  margin:  auto;
-  
+  margin: auto;
 }
 
-.content{
-  background-color: rgb(0, 88, 88);
-  padding:  1.6rem;
+.content {
+  padding: 1.6rem;
   margin: 3.2rem;
 }
