@@ -14,7 +14,7 @@ O **Chronos Pomodoro** é uma aplicação desenvolvida em React + TypeScript par
 - **React**
 - **TypeScript**
 - **CSS Modules**
-- **Vite** (provável, dado o uso do arquivo `vite.config.ts`)
+- **Vite** 
 
 ## Estrutura do Projeto
 
