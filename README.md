@@ -16,12 +16,7 @@ O **Chronos Pomodoro** é uma aplicação desenvolvida em React + TypeScript par
 - **CSS Modules**
 - **Vite** 
 
-## Estrutura do Projeto
 
-- `src/components/ContainerComponent`: Componente de layout para encapsular conteúdos.
-- `src/components/Menu`: Menu de navegação com ícones.
-- `src/components/Logo`: Componente para exibição da logo (detalhes não analisados).
-- `src/styles`: Estilos globais e temas.
 
 ## Objetivo
 
