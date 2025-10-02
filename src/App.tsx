@@ -6,6 +6,7 @@ import { Logo } from './components/Logo';
 import { Menu } from './components/Menu';
 import { CountDown } from './components/CountDown';
 import { DefaultInput } from './components/DefaultInput';
+import { Cycles } from './components/Cycles';
 
 export function App() {
   return (
@@ -31,7 +32,6 @@ export function App() {
               id='meuInput'
               type='text'
               placeholder='Ex.: estudar para a prova'
-              
             />
           </div>
 
@@ -40,8 +40,7 @@ export function App() {
           </div>
 
           <div className='formRow'>
-            <p>Cliclos:</p>
-            <p>0 0 0 0 0 0</p>
+            <Cycles />
           </div>
 
           <div className='formRow'>
