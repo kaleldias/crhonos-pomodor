@@ -5,7 +5,7 @@ O **Chronos Pomodoro** é uma aplicação desenvolvida em React + TypeScript par
 ## Funcionalidades
 
 - **Blocos de Foco e Descanso:** Estrutura para alternar entre períodos de trabalho e pausas, seguindo a metodologia Pomodoro.
-- **Interface Moderna:** Utiliza componentes como Menu, Logo e Container para uma navegação intuitiva e visual agradável.
+- **Interface Moderna:** Navegação intuitiva e visual agradável.
 - **Navegação Simples:** Menu com ícones para acesso rápido às principais áreas (início, histórico, configurações, modo claro/escuro).
 - **Estilização Modular:** CSS modular para fácil manutenção e personalização do visual.
 
